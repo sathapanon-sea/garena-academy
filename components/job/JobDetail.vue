@@ -189,7 +189,7 @@
           <b-col cols="12" lg="5">
             <div v-for="r in recommendCourseDetails" :key="r.header">
               <p>
-                <strong>&#8226; {{ r.header }}</strong>
+                <strong>{{ r.header && `&#8226; ${r.header}` }}</strong>
               </p>
               <div
                 v-for="d in r.details"
