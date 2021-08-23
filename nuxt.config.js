@@ -13,6 +13,7 @@ export default {
         async: true,
         defer: true,
       },
+      { src: 'pixel.js', type: 'text/javascript' }
     ],
     meta: [
       { charset: 'utf-8' },
