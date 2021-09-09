@@ -128,6 +128,7 @@ export default Vue.extend({
     const instance: any = this
 
     return {
+      title: 'อาชีพผู้ฝึกสอนกีฬาอีสปอร์ต',
       meta: [
         { property: 'og:type', content: 'article' },
         {

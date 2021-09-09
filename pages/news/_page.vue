@@ -110,6 +110,9 @@ export default Vue.extend({
   components: {
     ShareButton,
   },
+  head: {
+    title: 'ข่าวและกิจกรรม',
+  },
   data() {
     return {
       baseUrl: '',

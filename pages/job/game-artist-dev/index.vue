@@ -56,6 +56,9 @@ export default Vue.extend({
   components: {
     JobMain,
   },
+  head: {
+    title: 'หมวดนักออกแบบและพัฒนาเกม',
+  },
 })
 </script>
 

@@ -56,6 +56,9 @@ export default Vue.extend({
   components: {
     JobMain,
   },
+  head: {
+    title: 'หมวดนักการตลาดและประชาสัมพันธ์เกม',
+  },
 })
 </script>
 

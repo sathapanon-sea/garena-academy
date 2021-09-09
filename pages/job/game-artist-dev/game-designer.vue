@@ -131,6 +131,7 @@ export default Vue.extend({
     const instance: any = this
 
     return {
+      title: 'อาชีพนักออกแบบเกม',
       meta: [
         { property: 'og:type', content: 'article' },
         {

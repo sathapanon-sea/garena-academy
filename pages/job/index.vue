@@ -148,6 +148,9 @@ import type { Route } from 'vue-router'
 
 export default Vue.extend({
   name: 'Job',
+  head: {
+    title: 'หมวดอาชีพ',
+  },
   data: () => ({
     jobSelectionIndex: 2,
     jobClicked: 0,

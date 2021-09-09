@@ -127,6 +127,7 @@ export default Vue.extend({
     const instance: any = this
 
     return {
+      title: 'อาชีพเกมแอนิเมเตอร์',
       meta: [
         { property: 'og:type', content: 'article' },
         {

@@ -120,6 +120,7 @@ export default Vue.extend({
     const instance: any = this
 
     return {
+      title: 'อาชีพทีมควบคุมการผลิตสื่อและถ่ายทอดสด',
       meta: [
         { property: 'og:type', content: 'article' },
         {

@@ -46,6 +46,9 @@ import Vue from 'vue'
 
 export default Vue.extend({
   name: 'JobAssessment',
+  head: {
+    title: 'แบบประเมินอาชีพ',
+  },
 })
 </script>
 

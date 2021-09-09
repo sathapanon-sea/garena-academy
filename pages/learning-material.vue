@@ -215,6 +215,9 @@ export default Vue.extend({
     MaterialBox,
     Popup,
   },
+  head: {
+    title: 'สื่อการสอน',
+  },
   data: () => ({
     leftPanelOpen: false,
     groupSelected: 1,

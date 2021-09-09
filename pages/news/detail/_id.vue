@@ -97,6 +97,7 @@ export default Vue.extend({
     const instance: any = this
 
     return {
+      title: instance.news?.title,
       meta: [
         { property: 'og:type', content: 'article' },
         {

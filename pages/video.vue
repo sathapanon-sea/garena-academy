@@ -108,6 +108,9 @@ export default Vue.extend({
     VideoRow,
     ShareButton,
   },
+  head: {
+    title: 'วีดีโอ Garena Academy',
+  },
   data: () => {
     const videoJob = {
       artistDev: [

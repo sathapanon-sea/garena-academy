@@ -55,6 +55,9 @@ export default Vue.extend({
   components: {
     JobMain,
   },
+  head: {
+    title: 'หมวดนักกีฬาและนักพากย์เกม',
+  },
 })
 </script>
 
