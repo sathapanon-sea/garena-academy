@@ -13,7 +13,12 @@ export default {
         async: true,
         defer: true,
       },
-      { src: 'pixel.js', type: 'text/javascript' }
+      { src: 'pixel.js', type: 'text/javascript' },
+      {
+        src: 'https://www.googletagmanager.com/gtag/js?id=UA-208317855-1',
+        async: true,
+      },
+      { src: 'universal-ga.js', type: 'text/javascript' },
     ],
     meta: [
       { charset: 'utf-8' },
