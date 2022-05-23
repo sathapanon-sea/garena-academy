@@ -120,7 +120,7 @@
                   subTitle="Sound Designer (Game)"
                   imgSrc="@/assets/job/sound-designer.png"
                   videoLink="https://drive.google.com/uc?export=download&id=1agxv2OH3WZ5dFegGo-I3Pm4gq_P_vHjv"
-                  documentLink="https://drive.google.com/uc?export=download&id=1sK_w0PTey3dvBT2aA-I-w2QfW-6FVRQv"
+                  documentLink="https://drive.google.com/uc?export=download&id=17DnGzRVZhrcaLorTOrEg8mgdE-Kt2Ncm"
               /></b-col>
 
               <b-col cols="12" lg="6"
@@ -129,7 +129,7 @@
                   subTitle="Technical Artist"
                   imgSrc="@/assets/job/technical-artist.png"
                   videoLink="https://drive.google.com/uc?export=download&id=1EGy6Hh8iccOqStMMV5k-5e9V_9WtWfGz"
-                  documentLink="https://drive.google.com/uc?export=download&id=1sK_w0PTey3dvBT2aA-I-w2QfW-6FVRQv"
+                  documentLink="https://drive.google.com/uc?export=download&id=1Y9FJtXnTawWvZz6gg0hDeR7-vSHeN2p8"
               /></b-col>
             </b-row>
 
@@ -176,8 +176,8 @@
                   title="eSport Project Manager"
                   subTitle="eSport Project Manager"
                   imgSrc="@/assets/job/esports-project-manager.png"
-                  videoLink="https://drive.google.com/uc?export=download&id=1EGy6Hh8iccOqStMMV5k-5e9V_9WtWfGz"
-                  documentLink="https://drive.google.com/uc?export=download&id=1OGXatjsNWRlEtnmd4hoL6ITSQV__rJ5x"
+                  videoLink="https://drive.google.com/uc?export=download&id=118sPO8CzjxyP71BDlEYWMFDDWjlddMjb"
+                  documentLink="https://drive.google.com/uc?export=download&id=1D2xMfijEDuJ--MkD4cdS5fARFRWZ8FjS"
               /></b-col>
             </b-row>
             <b-row
