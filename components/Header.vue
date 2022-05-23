@@ -81,6 +81,22 @@
                     ></b-dropdown-item
                   >
                 </b-col>
+                <b-col>
+                  <b-dropdown-item
+                    ><nuxt-link to="/job/game-artist-dev/sound-designer" class="nav-link"
+                      >Sound Designer (Game)</nuxt-link
+                    ></b-dropdown-item
+                  >
+                </b-col>
+                <b-col>
+                  <b-dropdown-item
+                    ><nuxt-link
+                      to="/job/game-artist-dev/technical-artist"
+                      class="nav-link"
+                      >Technical Artist</nuxt-link
+                    ></b-dropdown-item
+                  >
+                </b-col>
                 <b-col cols="12">
                   <b-dropdown-divider />
                   <b-dropdown-group header="นักกีฬา/นักพากย์เกม" />
@@ -144,6 +160,15 @@
                   <b-dropdown-item
                     ><nuxt-link to="/job/game-marketing-ads/journalist" class="nav-link"
                       >นักข่าววงการเกม</nuxt-link
+                    ></b-dropdown-item
+                  >
+                </b-col>
+                <b-col>
+                  <b-dropdown-item
+                    ><nuxt-link
+                      to="/job/game-marketing-ads/esport-project-manager"
+                      class="nav-link"
+                      >eSport Project Manager</nuxt-link
                     ></b-dropdown-item
                   >
                 </b-col>

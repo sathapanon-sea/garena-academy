@@ -37,7 +37,10 @@
     </b-container>
     <b-container fluid class="d-none d-lg-block">
       <JobTitleCircle :title="title" />
-      <div class="job-circle-row" :class="readyForAnimate && 'animate'">
+      <div
+        class="job-circle-row"
+        :class="[readyForAnimate && 'animate', jobData.length % 2 === 0 ? 'even' : 'odd']"
+      >
         <JobCircle
           v-for="(j, i) in jobData"
           :key="i"
@@ -136,95 +139,240 @@ export default Vue.extend({
   margin-top: 30px;
   margin-bottom: 100px;
   visibility: hidden;
+  &.even {
+    @media only screen and (max-width: 1800px) {
+      margin-top: 100px;
+    }
+
+    @media only screen and (max-width: 1600px) {
+      margin-top: 150px;
+    }
+
+    @media only screen and (max-width: 1400px) {
+      margin-top: 200px;
+    }
+
+    @media only screen and (max-width: 1200px) {
+      margin-top: 250px;
+    }
+  }
 
   &.animate {
     visibility: visible;
 
-    .job-circle-link {
-      position: relative;
-      display: inline-block;
-      width: 16.66%;
+    &.even {
+      .job-circle-link {
+        position: relative;
+        display: inline-block;
+        width: 16.66%;
 
-      &:nth-child(1) {
-        animation: xAxisFar 1.75s;
+        &:nth-child(1) {
+          animation: xAxisFar 2.1s;
 
-        .job-circle-inner {
-          animation: yAxisFar 1.75s;
+          .job-circle-inner {
+            animation: yAxisFar 2.1s;
+          }
+        }
+
+        &:nth-child(2) {
+          animation: xAxisMiddle 1.9s;
+
+          .job-circle-inner {
+            animation: yAxisMiddle 1.9s;
+          }
+        }
+
+        &:nth-child(3) {
+          animation: xAxisNear 1.75s;
+
+          .job-circle-inner {
+            animation: yAxisNear 1.75s;
+          }
+        }
+
+        &:nth-child(4) {
+          animation: xAxisNear 1.3s;
+
+          .job-circle-inner {
+            animation: yAxisNear 1.3s;
+          }
+        }
+
+        &:nth-child(5) {
+          animation: xAxisMiddle 1.15s;
+
+          .job-circle-inner {
+            animation: yAxisMiddle 1.15s;
+          }
+        }
+
+        &:nth-child(6) {
+          animation: xAxisFar 1s;
+
+          .job-circle-inner {
+            animation: yAxisFar 1s;
+          }
+        }
+
+        &:nth-child(7) {
+          animation: xAxisFar 1.6s;
+
+          .job-circle-inner {
+            animation: yAxisFar 1.6s;
+          }
+        }
+
+        &:nth-child(8) {
+          animation: xAxisFar 1.45s;
+
+          .job-circle-inner {
+            animation: yAxisFar 1.45s;
+          }
+        }
+
+        &:nth-child(1),
+        &:nth-child(6) {
+          transform: scale(0.6);
+          top: -535px;
+        }
+
+        &:nth-child(2),
+        &:nth-child(5) {
+          transform: scale(0.7);
+          top: -340px;
+        }
+
+        &:nth-child(3),
+        &:nth-child(4) {
+          transform: scale(0.8);
+          top: -120px;
+        }
+
+        &:nth-child(7),
+        &:nth-child(8) {
+          transform: scale(0.9);
+          top: -260px;
+          z-index: 3;
+        }
+
+        &:nth-child(1) {
+          left: 100px;
+        }
+
+        &:nth-child(2) {
+          right: 80px;
+        }
+
+        &:nth-child(3) {
+          right: 220px;
+        }
+
+        &:nth-child(4) {
+          left: 220px;
+          z-index: 2;
+        }
+
+        &:nth-child(5) {
+          left: 80px;
+          z-index: 1;
+        }
+        &:nth-child(6) {
+          right: 100px;
+        }
+        &:nth-child(7) {
+          left: 0px;
+        }
+        &:nth-child(8) {
+          right: 0px;
         }
       }
+    }
 
-      &:nth-child(2) {
-        animation: xAxisMiddle 1.6s;
+    &.odd {
+      .job-circle-link {
+        position: relative;
+        display: inline-block;
+        width: 16.66%;
 
-        .job-circle-inner {
-          animation: yAxisMiddle 1.6s;
+        &:nth-child(1) {
+          animation: xAxisFar 1.75s;
+
+          .job-circle-inner {
+            animation: yAxisFar 1.75s;
+          }
         }
-      }
 
-      &:nth-child(3) {
-        animation: xAxisNear 1.45s;
+        &:nth-child(2) {
+          animation: xAxisMiddle 1.6s;
 
-        .job-circle-inner {
-          animation: yAxisNear 1.45s;
+          .job-circle-inner {
+            animation: yAxisMiddle 1.6s;
+          }
         }
-      }
 
-      &:nth-child(4) {
-        animation: xAxisNear 1.3s;
+        &:nth-child(3) {
+          animation: xAxisNear 1.45s;
 
-        .job-circle-inner {
-          animation: yAxisNear 1.3s;
+          .job-circle-inner {
+            animation: yAxisNear 1.45s;
+          }
         }
-      }
 
-      &:nth-child(5) {
-        animation: xAxisMiddle 1.15s;
+        &:nth-child(4) {
+          animation: xAxisNear 1.3s;
 
-        .job-circle-inner {
-          animation: yAxisMiddle 1.15s;
+          .job-circle-inner {
+            animation: yAxisNear 1.3s;
+          }
         }
-      }
 
-      &:nth-child(6) {
-        animation: xAxisFar 1s;
+        &:nth-child(5) {
+          animation: xAxisFar 1.15s;
 
-        .job-circle-inner {
-          animation: yAxisFar 1s;
+          .job-circle-inner {
+            animation: yAxisFar 1.15s;
+          }
         }
-      }
 
-      &:nth-child(1),
-      &:nth-child(6) {
-        transform: scale(0.7);
-        top: -280px;
-      }
+        &:nth-child(1),
+        &:nth-child(5) {
+          transform: scale(0.9);
+          top: -280px;
+        }
 
-      &:nth-child(3),
-      &:nth-child(4) {
-        transform: scale(1.2);
-        top: 50px;
-      }
+        &:nth-child(3) {
+          transform: scale(1.2);
+          top: 50px;
+        }
 
-      &:nth-child(2),
-      &:nth-child(5) {
-        transform: scale(0.85);
-        top: -120px;
-      }
+        &:nth-child(2),
+        &:nth-child(4) {
+          transform: scale(1);
+          top: -80px;
+        }
 
-      &:nth-child(2) {
-        right: 40px;
-      }
+        &:nth-child(1) {
+          left: 20px;
+        }
 
-      &:nth-child(3) {
-        right: 40px;
-      }
+        &:nth-child(2) {
+          right: 40px;
+        }
 
-      &:nth-child(4) {
-        left: 40px;
-      }
+        &:nth-child(3) {
+          right: 0px;
+          h3 {
+            font-size: 1.3vw;
+          }
+        }
 
-      &:nth-child(5) {
-        left: 40px;
+        &:nth-child(4) {
+          left: 40px;
+        }
+
+        &:nth-child(5) {
+          right: 20px;
+        }
       }
     }
   }

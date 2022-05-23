@@ -6,12 +6,6 @@
       mainImgSrc="@/assets/job/นักกีฬาและนักพากย์เกม.png"
       :jobData="[
         {
-          imgSrc: '',
-          title: '',
-          subTitle: '',
-          link: '',
-        },
-        {
           imgSrc: 'streamer',
           title: 'Streamer',
           subTitle: 'สตรีมเมอร์',

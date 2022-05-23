@@ -6,12 +6,6 @@
       mainImgSrc="@/assets/job/นักการตลาดและประชาสัมพันธ์เกม.png"
       :jobData="[
         {
-          imgSrc: '',
-          title: '',
-          subTitle: '',
-          link: '',
-        },
-        {
           imgSrc: 'marketing',
           title: 'Marketing',
           subTitle: 'นักการตลาดด้านเกม',
@@ -22,6 +16,12 @@
           title: 'Game Master',
           subTitle: 'เกมมาสเตอร์',
           link: '/job/game-marketing-ads/game-master',
+        },
+        {
+          imgSrc: 'esports-project-manager',
+          title: 'eSport Project Manager',
+          subTitle: 'eSport Project Manager',
+          link: '/job/game-marketing-ads/esport-project-manager',
         },
         {
           imgSrc: 'journalist',
@@ -35,12 +35,6 @@
           subTitle: 'ทีมควบคุมการผลิตสื่อและถ่ายทอดสด',
           link: '/job/game-marketing-ads/esport-team',
           smallText: true,
-        },
-        {
-          imgSrc: '',
-          title: '',
-          subTitle: '',
-          link: '',
         },
       ]"
     />

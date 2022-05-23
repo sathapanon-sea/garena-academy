@@ -161,11 +161,11 @@
         <b-img-lazy fluid class="" src="@/assets/job/jump.png" alt="jump" />
         <b-row class="job-advices">
           <template v-for="(r, i) in Array.prototype.reverse.apply(recommendLv)">
-            <b-col cols="1" :offset="3 - i" :key="'lv' + i"
+            <b-col cols="1" :offset="4 - i" :key="'lv' + i"
               ><h5>LV{{ recommendLv.length - i }}</h5></b-col
             >
             <b-col
-              :cols="String(8 + i)"
+              :cols="String(7 + i)"
               :class="`job-advice-lv${recommendLv.length - i}`"
               :key="i"
               ><p class="text-justify" v-html="r"></p

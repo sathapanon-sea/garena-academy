@@ -143,7 +143,7 @@ export default Vue.extend({
     top: 60%;
 
     h3 {
-      font-size: 1.5vw;
+      font-size: 1.3vw;
       margin: 0;
     }
 

@@ -156,6 +156,20 @@ export default Vue.extend({
           imgSrc: 'นักทดสอบ-01.png',
           thumbTitle: 'Game QA Tester',
         },
+        {
+          title: 'Lv 99 แนะแนวอาชีพ Sound Designer (Game)',
+          subTitle: '',
+          link: 'https://www.youtube.com/embed/bOjPqETCxKw',
+          imgSrc: 'sound-designer-01.png',
+          thumbTitle: 'Sound Designer (Game)',
+        },
+        {
+          title: 'Lv 99 แนะแนวอาชีพ Technical Artist',
+          subTitle: '',
+          link: 'https://www.youtube.com/embed/bsBqnXTtJ8s',
+          imgSrc: 'technical-artist-01.png',
+          thumbTitle: 'Technical Artist',
+        },
       ],
       marketing: [
         {
@@ -185,6 +199,13 @@ export default Vue.extend({
           link: 'https://www.youtube.com/embed/wkMLYsBQm6E',
           imgSrc: 'เกมมาสเตอร์-01.png',
           thumbTitle: 'Game Master',
+        },
+        {
+          title: 'Lv99 แนะแนวอาชีพ eSport Project Manager',
+          subTitle: '',
+          link: 'https://www.youtube.com/embed/s8ixgW7aebg',
+          imgSrc: 'esports-project manager-01.png',
+          thumbTitle: 'eSport Project Manager',
         },
       ],
       eSport: [

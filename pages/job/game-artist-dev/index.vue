@@ -24,16 +24,16 @@
           link: '/job/game-artist-dev/game-developer',
         },
         {
-          imgSrc: 'game_designer',
-          title: 'Game Designer',
-          subTitle: 'นักออกแบบเกม',
-          link: '/job/game-artist-dev/game-designer',
-        },
-        {
           imgSrc: 'game_QA tester',
           title: 'Game QA Tester',
           subTitle: 'นักทดสอบระบบเกม',
           link: '/job/game-artist-dev/game-qa',
+        },
+        {
+          imgSrc: 'game_designer',
+          title: 'Game Designer',
+          subTitle: 'นักออกแบบเกม',
+          link: '/job/game-artist-dev/game-designer',
         },
         {
           imgSrc: 'game_dev arvr',
@@ -41,6 +41,18 @@
           subTitle: 'นักพัฒนาเกม AR/VR',
           link: '/job/game-artist-dev/game-arvr-developer',
           smallText: true,
+        },
+        {
+          imgSrc: 'sound-designer',
+          title: 'Sound Designer (Game)',
+          subTitle: 'Sound Designer (Game)',
+          link: '/job/game-artist-dev/sound-designer',
+        },
+        {
+          imgSrc: 'technical-artist',
+          title: 'Technical Artist',
+          subTitle: 'Technical Artist',
+          link: '/job/game-artist-dev/technical-artist',
         },
       ]"
     />

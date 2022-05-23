@@ -112,6 +112,25 @@
                   videoLink="https://drive.google.com/uc?export=download&id=1tNQIrxNRmmjbGVknx0So4lWqYHOVRgF2"
                   documentLink="https://drive.google.com/uc?export=download&id=1sK_w0PTey3dvBT2aA-I-w2QfW-6FVRQv"
               /></b-col>
+
+              <!-- todo change the jobs-->
+              <b-col cols="12" lg="6"
+                ><MaterialBox
+                  title="Sound Designer (Game)"
+                  subTitle="Sound Designer (Game)"
+                  imgSrc="@/assets/job/sound-designer.png"
+                  videoLink="https://drive.google.com/uc?export=download&id=1agxv2OH3WZ5dFegGo-I3Pm4gq_P_vHjv"
+                  documentLink="https://drive.google.com/uc?export=download&id=1sK_w0PTey3dvBT2aA-I-w2QfW-6FVRQv"
+              /></b-col>
+
+              <b-col cols="12" lg="6"
+                ><MaterialBox
+                  title="Technical Artist"
+                  subTitle="Technical Artist"
+                  imgSrc="@/assets/job/technical-artist.png"
+                  videoLink="https://drive.google.com/uc?export=download&id=1EGy6Hh8iccOqStMMV5k-5e9V_9WtWfGz"
+                  documentLink="https://drive.google.com/uc?export=download&id=1sK_w0PTey3dvBT2aA-I-w2QfW-6FVRQv"
+              /></b-col>
             </b-row>
 
             <b-row
@@ -149,6 +168,16 @@
                   imgSrc="@/assets/job/esport-team.png"
                   videoLink="https://drive.google.com/uc?export=download&id=1bINIA3OPbXTCIPW1-nWq7kS4bA7RzHwu"
                   documentLink="https://drive.google.com/uc?export=download&id=1senI05_ZqFDWpqoZomI5Q0cidjxbstXN"
+              /></b-col>
+
+              <!-- todo change the jobs-->
+              <b-col cols="12" lg="6"
+                ><MaterialBox
+                  title="eSport Project Manager"
+                  subTitle="eSport Project Manager"
+                  imgSrc="@/assets/job/esports-project-manager.png"
+                  videoLink="https://drive.google.com/uc?export=download&id=1EGy6Hh8iccOqStMMV5k-5e9V_9WtWfGz"
+                  documentLink="https://drive.google.com/uc?export=download&id=1OGXatjsNWRlEtnmd4hoL6ITSQV__rJ5x"
               /></b-col>
             </b-row>
             <b-row
