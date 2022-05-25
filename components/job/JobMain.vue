@@ -252,7 +252,6 @@ export default Vue.extend({
         &:nth-child(8) {
           transform: scale(0.9);
           top: -260px;
-          z-index: 3;
         }
 
         &:nth-child(1) {
@@ -269,12 +268,10 @@ export default Vue.extend({
 
         &:nth-child(4) {
           left: 220px;
-          z-index: 2;
         }
 
         &:nth-child(5) {
           left: 80px;
-          z-index: 1;
         }
         &:nth-child(6) {
           right: 100px;

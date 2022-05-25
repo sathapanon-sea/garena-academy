@@ -84,7 +84,7 @@
                 <b-col>
                   <b-dropdown-item
                     ><nuxt-link to="/job/game-artist-dev/sound-designer" class="nav-link"
-                      >Sound Designer (Game)</nuxt-link
+                      >นักออกแบบเสียง</nuxt-link
                     ></b-dropdown-item
                   >
                 </b-col>
@@ -168,7 +168,7 @@
                     ><nuxt-link
                       to="/job/game-marketing-ads/esport-project-manager"
                       class="nav-link"
-                      >eSport Project Manager</nuxt-link
+                      >ผู้จัดการแข่งขันอีสปอร์ต</nuxt-link
                     ></b-dropdown-item
                   >
                 </b-col>

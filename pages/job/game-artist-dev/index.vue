@@ -45,7 +45,7 @@
         {
           imgSrc: 'sound-designer',
           title: 'Sound Designer (Game)',
-          subTitle: 'Sound Designer (Game)',
+          subTitle: 'นักออกแบบเสียง',
           link: '/job/game-artist-dev/sound-designer',
         },
         {

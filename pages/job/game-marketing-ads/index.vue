@@ -20,7 +20,7 @@
         {
           imgSrc: 'esports-project-manager',
           title: 'eSport Project Manager',
-          subTitle: 'eSport Project Manager',
+          subTitle: 'ผู้จัดการแข่งขันอีสปอร์ต',
           link: '/job/game-marketing-ads/esport-project-manager',
         },
         {
