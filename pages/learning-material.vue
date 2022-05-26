@@ -117,7 +117,7 @@
               <b-col cols="12" lg="6"
                 ><MaterialBox
                   title="Sound Designer (Game)"
-                  subTitle="Sound Designer (Game)"
+                  subTitle="นักออกแบบเสียง"
                   imgSrc="@/assets/job/sound-designer.png"
                   videoLink="https://drive.google.com/uc?export=download&id=1agxv2OH3WZ5dFegGo-I3Pm4gq_P_vHjv"
                   documentLink="https://drive.google.com/uc?export=download&id=17DnGzRVZhrcaLorTOrEg8mgdE-Kt2Ncm"
@@ -174,7 +174,7 @@
               <b-col cols="12" lg="6"
                 ><MaterialBox
                   title="eSport Project Manager"
-                  subTitle="eSport Project Manager"
+                  subTitle="ผู้จัดการแข่งขันอีสปอร์ต"
                   imgSrc="@/assets/job/esports-project-manager.png"
                   videoLink="https://drive.google.com/uc?export=download&id=118sPO8CzjxyP71BDlEYWMFDDWjlddMjb"
                   documentLink="https://drive.google.com/uc?export=download&id=1D2xMfijEDuJ--MkD4cdS5fARFRWZ8FjS"
