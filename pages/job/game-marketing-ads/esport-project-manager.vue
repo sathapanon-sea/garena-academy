@@ -118,7 +118,7 @@ export default Vue.extend({
   data() {
     return {
       mainImg: require('@/assets/job/esports-project-manager/main.png'),
-      title: 'ผู้จัดการแข่งขันอีสปอร์ต ',
+      title: 'ผู้จัดการแข่งขันอีสปอร์ต',
       subTitle: '(eSports Project Manager)',
       description:
         'eSports Project Manager จะเป็นสายงานที่รับผิดชอบดูแลและวางแผนในการจัดกิจกรรมการแข่งขันกีฬา eSports  ต้องมีการดูแลบริหารจัดการทรัพยากรหลายด้าน ทั้งบุคลากร อุปกรณ์ เวลา และงบประมาณ จึงจำเป็นที่จะต้องมีทักษะความสามารถที่หลากหลายรอบตัว',
