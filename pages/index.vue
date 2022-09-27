@@ -2,7 +2,7 @@
   <div>
     <Banner />
     <b-container class="pl-5 pr-5">
-      <b-container class="home-survey-box mt-5 shadow p-5 mb-5 bg-white">
+      <!-- <b-container class="home-survey-box mt-5 shadow p-5 mb-5 bg-white">
         <h3>ค้นหาอาชีพที่ใช่</h3>
         <b-row class="home-survey-icons-row mt-4 justify-content-sm-center">
           <b-col cols="6" sm="2"
@@ -28,8 +28,8 @@
             >เริ่มทำแบบประเมิน</b-button
           ></b-link
         >
-      </b-container>
-      <b-container class="home-news mt-5">
+      </b-container> -->
+      <b-container class="home-news mt-4">
         <b-row>
           <h3 class="m-auto m-lg-0 float-lg-left">ข่าวสาร/กิจกรรม</h3>
         </b-row>
@@ -106,6 +106,12 @@ export default Vue.extend({
   max-width: 1000px;
   position: relative;
   z-index: 1;
+}
+
+.home-news h3 {
+  color: #fff;
+  text-align: center;
+  width: 100%;
 }
 .home-news-read-more-button {
   width: 150px;

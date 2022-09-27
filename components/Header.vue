@@ -183,7 +183,7 @@
             </b-nav-item-dropdown>
           </div>
           <nuxt-link to="/video" class="nav-link">วิดีโอ</nuxt-link>
-          <nuxt-link to="/job-assessment" class="nav-link">แบบประเมินอาชีพ</nuxt-link>
+          <!-- <nuxt-link to="/job-assessment" class="nav-link">แบบประเมินอาชีพ</nuxt-link> -->
           <nuxt-link to="/news" class="nav-link">ข่าว/กิจกรรม</nuxt-link>
           <nuxt-link to="/learning-material" class="nav-link">สื่อการสอน</nuxt-link>
           <nuxt-link to="/about-us" class="nav-link">เกี่ยวกับเรา</nuxt-link>

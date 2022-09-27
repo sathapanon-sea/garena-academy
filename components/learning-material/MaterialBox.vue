@@ -47,16 +47,17 @@ export default Vue.extend({
   },
   methods: {
     onDownloadClick(type: 'video' | 'document') {
-      if (this.$cookies.get('download-form-submitted') === '1') {
-        return this.openDownload(type)
-      }
+      this.openDownload(type)
+      // if (this.$cookies.get('download-form-submitted') === '1') {
+      //   return this.openDownload(type)
+      // }
 
-      this.$bvModal.show('learning-material-popup-modal')
-      this.$root.$once('bv::modal::hide', (event: BvModalEvent, modalId: string) => {
-        if (event.trigger === 'event') {
-          this.openDownload(type)
-        }
-      })
+      // // this.$bvModal.show('learning-material-popup-modal')
+      // this.$root.$once('bv::modal::hide', (event: BvModalEvent, modalId: string) => {
+      //   if (event.trigger === 'event') {
+      //     this.openDownload(type)
+      //   }
+      // })
     },
 
     openDownload(type: 'video' | 'document') {
