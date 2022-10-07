@@ -373,6 +373,6 @@ export default Vue.extend({
 }
 
 .bg-primary {
-  padding: 130px 0;
+  padding: 130px 0 !important;
 }
 </style>
