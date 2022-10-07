@@ -127,7 +127,7 @@
       </b-row>
     </div>
 
-    <b-container class="job-survey-box mt-5 shadow p-5 mb-5 bg-white">
+    <!-- <b-container class="job-survey-box mt-5 shadow p-5 mb-5 bg-white">
       <h3>ค้นหาอาชีพที่ใช่</h3>
       <b-link
         href="https://garenaacademy.careervisathailand.com/login/"
@@ -138,7 +138,7 @@
           >เริ่มทำแบบประเมิน</b-button
         ></b-link
       >
-    </b-container>
+    </b-container> -->
   </b-container>
 </template>
 
@@ -370,5 +370,9 @@ export default Vue.extend({
       }
     }
   }
+}
+
+.bg-primary {
+  padding: 130px 0;
 }
 </style>
