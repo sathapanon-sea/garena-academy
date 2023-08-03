@@ -6,13 +6,13 @@
     </div>
     <Footer />
     <client-only>
-      <Popup
+      <!-- <Popup
         v-if="
           showPopup &&
           this.$route.name !== 'NotFound' &&
           !this.$cookies.get('job-selected')
         "
-      />
+      /> -->
     </client-only>
   </b-container>
 </template>
@@ -21,30 +21,30 @@
 import Vue from 'vue'
 import Header from '../components/Header.vue'
 import Footer from '../components/Footer.vue'
-import Popup from '../components/Popup.vue'
+// import Popup from '../components/Popup.vue'
 
 export default Vue.extend({
   name: 'app',
   data() {
     return {
-      showPopup: false,
+      // showPopup: false,
     }
   },
   components: {
     Header,
     Footer,
-    Popup,
+    // Popup,
   },
   mounted() {
-    this.showPopup = true
+    // this.showPopup = true
 
-    const job = this.$cookies.get('job-selected')
-    job &&
-      this.$gtag.set({
-        user_properties: {
-          job_title: job,
-        },
-      })
+    // const job = this.$cookies.get('job-selected')
+    // job &&
+    //   this.$gtag.set({
+    //     user_properties: {
+    //       job_title: job,
+    //     },
+    //   })
 
     this.$gtag.set({ page_path: this.$route.path, page_title: document.title })
     this.$gtag.event('page_view')

@@ -61,13 +61,13 @@ export default Vue.extend({
     },
 
     openDownload(type: 'video' | 'document') {
-      const job = this.$cookies.get('job-selected')
-      job &&
-        this.$gtag.set({
-          user_properties: {
-            job_title: job,
-          },
-        })
+      // const job = this.$cookies.get('job-selected')
+      // job &&
+      //   this.$gtag.set({
+      //     user_properties: {
+      //       job_title: job,
+      //     },
+      //   })
       this.$gtag.event('download', { download_type: this.title + '-' + type })
 
       window.open(type === 'video' ? this.videoLink : this.documentLink, '_blank')
