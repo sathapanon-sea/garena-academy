@@ -18,7 +18,11 @@ export default Vue.extend({
 
 <style lang="scss" scoped>
 img.partner-item {
-  padding-top: 15px;
-  padding-bottom: 15px;
+  aspect-ratio: 300 / 150;
+  object-fit: contain;
+  @media screen and (max-width: 1024px) {
+    max-width: 35%;
+    margin: 0;
+  }
 }
 </style>
