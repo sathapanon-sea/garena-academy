@@ -102,6 +102,7 @@ export default Vue.extend({
       }
     },
   },
+  fetchOnServer: false,
   async fetch() {
     const context = this.$nuxt.context
     const client = context.app.apolloProvider?.defaultClient
