@@ -30,6 +30,7 @@ export default Vue.extend({
   methods: {
     documentToHtmlString: documentToHtmlString,
   },
+  fetchOnServer: false,
   async fetch() {
     const context = this.$nuxt.context
     const client = context.app.apolloProvider?.defaultClient
