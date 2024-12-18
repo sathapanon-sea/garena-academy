@@ -58,7 +58,7 @@
       <b-row class="mx-0">
         <b-col
           v-for="(n, i) in news.newsCollection.items"
-          :key="i"
+          :key="`${n.sys.id}-${i}-${n.title}`"
           cols="6"
           md="4"
           class="mt-0 mt-md-5 px-0 px-md-3"
@@ -128,6 +128,7 @@ export default Vue.extend({
       return pageNum === 1 ? '/news' : `/news/${pageNum}`
     },
   },
+  fetchOnServer: false,
   async fetch() {
     const context = this.$nuxt.context
     const client = context.app.apolloProvider?.defaultClient
