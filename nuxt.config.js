@@ -72,6 +72,13 @@ export default {
   ],
   modules: ['bootstrap-vue/nuxt', '@nuxtjs/style-resources'],
   build: {
+    loaders: {
+      scss: {
+        sassOptions: {
+          quietDeps: true,
+        },
+      },
+    },
     babel: {
       plugins: [['@babel/plugin-proposal-private-methods', { loose: true }]],
     },
