@@ -172,6 +172,7 @@ export default Vue.extend({
       newsMainImageElement.setAttribute('src', image.url)
     },
   },
+  fetchOnServer: false,
   async fetch() {
     const context = this.$nuxt.context
     const client = context.app.apolloProvider?.defaultClient

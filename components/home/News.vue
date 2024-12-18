@@ -1,6 +1,10 @@
 <template>
   <b-row class="home-survey-icons-row mt-4 justify-content-center" v-if="newsCollection">
-    <b-col lg="4" v-for="(n, i) in newsCollection.items" :key="i">
+    <b-col
+      lg="4"
+      v-for="(n, i) in newsCollection.items"
+      :key="`${n.sys.id}-${i}-${n.title || 'news'}`"
+    >
       <NewsItem
         :title="n.title"
         :description="documentToHtmlString(n.content.json)"
@@ -23,6 +27,7 @@ export default Vue.extend({
     NewsItem,
   },
   data() {
+    console.log('here')
     return {
       newsCollection: null,
     }
@@ -30,6 +35,7 @@ export default Vue.extend({
   methods: {
     documentToHtmlString: documentToHtmlString,
   },
+  fetchOnServer: false,
   async fetch() {
     const context = this.$nuxt.context
     const client = context.app.apolloProvider?.defaultClient
